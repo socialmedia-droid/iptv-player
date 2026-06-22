@@ -1,8 +1,5 @@
 {
-  "buildCommand": "npm run build",
+  "buildCommand": "npm install && npm run build",
   "outputDirectory": "dist-web",
-  "framework": "vite",
-  "env": {
-    "NODE_ENV": "production"
-  }
+  "framework": "vite"
 }
